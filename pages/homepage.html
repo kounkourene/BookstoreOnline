@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/bookstore.css" />
+    <style type="text/css">
+      .input-header {
+        border-radius: 2rem;
+        height: 3rem;
+      }
+      #newest-list {
+        font-size: 3rem;
+        color: #00599c;
+        margin-bottom: 2rem;
+        font-weight: 800;
+      }
+    </style>
+    <title>Evergreen Bookstore - Home Page</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        src="\images\BookstoreLogo.png"
+        alt="bookstore-logo"
+        class="image-logo"
+      />
+      <form>
+        <input
+          class="input-header"
+          type="text"
+          name="search"
+          size="50"
+          style="margin-left: 35rem;"
+        />
+        <input
+          class="input-header"
+          style="margin-right: 8rem;"
+          type="submit"
+          value="search"
+        />
+      </form>
+
+      <nav>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#Home">Home</a></li>
+          <li><a class="main-nav-link" href="login.html">Sign In</a></li>
+          <li><a class="main-nav-link" href="register.html">Register</a></li>
+          <li><a class="main-nav-link" href="#Addtocart">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-header">
+      <div class="book-list-detail">
+        <div class="book-description">
+          <p stgyle="margin-top:5rem">
+            Find your place at Evergreen online Bookstore. Over 1 million books
+            ready to ship, 1.5 million eBooks and 100,000 audiobooks to download
+            right now.
+          </p>
+          <p style="margin-top: 5rem; color: #00599c; font: size 40rem;">
+            Chooose your books by category:
+            <select name="select-category" class="select-category">
+              <option value="business">Business</option>
+              <option value="health">Health</option>
+              <option value="marketing">Marketing</option>
+              <option value="programming">Programming</option>
+              <option value="technology">Technology</option>
+              <option value="history">History</option>
+              <option value="lifestyle">Lifestyle</option>
+              <option value="politicalscience">Political Science</option>
+              <option value="education">Education</option>
+              <option value="romance">romance</option>
+            </select>
+          </p>
+        </div>
+        <div class="list-books-table">
+          <p id="newest-list">
+            Below is the list of newest books available now:
+          </p>
+          <table class="list-books" border="1">
+            <thead>
+              <tr>
+                <td>Category</td>
+                <td>Author</td>
+                <td>Title</td>
+                <td>Price</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>History</td>
+                <td>Mike Gayle</td>
+                <td>Half a World Away</td>
+                <td>$19.30 USD</td>
+              </tr>
+              <tr>
+                <td>Business</td>
+                <td>Stephen R Covey</td>
+                <td>7 Habits of Highly Effective people</td>
+                <td>$35.10 USD</td>
+              </tr>
+              <tr>
+                <td>Plotical Science</td>
+                <td>Nassim Nicholas Taleb</td>
+                <td>Skin in the game</td>
+                <td>$25.80 USD</td>
+              </tr>
+              <tr>
+                <td>Romance</td>
+                <td>Colleen Hoover</td>
+                <td>Ugly love</td>
+                <td>$15.30 USD</td>
+              </tr>
+              <tr>
+                <td>Education</td>
+                <td>Adam Grant</td>
+                <td>Think again</td>
+                <td>$20.50 USD</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="book-details1">
+      <div class="general-section1-division">
+        <div class="ul-list-books1">
+          <ul class="list-books-images">
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img src="/images/lf.webp" width="150" height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$17.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv>
+                  <a href="#"
+                    ><img
+                      src="/images/If_sec1-2.webp"
+                      width="170"
+                      height="207" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$32.50 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img
+                      src="/images/If_sec1-4.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$17.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv>
+                  <a href="#"
+                    ><img
+                      src="/images/If_sec1-3webp.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$17.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img
+                      src="/images/sec2-1.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$50.40 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv>
+                  <a href="#"
+                    ><img
+                      src="/images/sec2-2.webp"
+                      with="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$20.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="book-details2">
+      <div class="general-section2-division">
+        <div class="ul-list-books2">
+          <ul class="list-books-images2">
+            <li>
+              <dv>
+                <dv>
+                  <a href="#"
+                    ><img
+                      src="/images/sec2-3.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$17.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img
+                      src="/images/sec2-4.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$32.50 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img
+                      src="/images/sec3-1.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$17.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img
+                      src="/images/sec3-2.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$17.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv>
+                  <a href="#"
+                    ><img
+                      src="/images/sec3-3.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$50.40 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+            <li>
+              <dv>
+                <dv
+                  ><a href="#"
+                    ><img
+                      src="/images/sec3-4.webp"
+                      width="150"
+                      height="200" /></a
+                ></dv>
+                <div>
+                  <p class="book-price">$20.25 USD</p>
+                  <input
+                    class="add-to-cart"
+                    type="submit"
+                    value="Add to cart"
+                  />
+                </div>
+              </dv>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="footer">
+        <footer style="background-color: #00599c; color: #191818;">
+          <p>Copyright &COPY; 2024 By Rene Kounkou</p>
+          <a class="footer-link" href="#About us">About us</a>
+          <a class="footer-link" href="#About us">Contact us</a>
+          <a class="footer-link" href="#Privacy policy">Privacy policy</a>
+          <a class="footer-link" href="Shipping">Shipping & Delivery</a>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/bookstore.css" />
+    <link rel="stylesheet" href="/styles/register.css" />
+    <title>Evergreen Bookstore</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        src="\images\BookstoreLogo.png"
+        alt="bookstore-logo"
+        class="image-logo"
+      />
+      <form>
+        <input
+          class="input-header"
+          type="text"
+          name="search"
+          size="50"
+          style="margin-left: 35rem;"
+        />
+        <input
+          class="input-header"
+          style="margin-right: 8rem;"
+          type="submit"
+          value="search"
+        />
+      </form>
+
+      <nav>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="homepage.html">Home</a></li>
+          <li><a class="main-nav-link" href="login.html">Sign In</a></li>
+          <li><a class="main-nav-link" href="register.html">Register</a></li>
+          <li><a class="main-nav-link" href="#Addtocart">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h2
+        style="
+          color: #00599c;
+          margin-bottom: 1px;
+          margin-top: 30px;
+          font-size: 4rem;
+        "
+      >
+        Fill out this form to create your account
+      </h2>
+    </div>
+    <div class="wrapper">
+      <form id="register-form">
+        <label>First Name</label>
+        <input
+          type="text"
+          name="firs-name"
+          id="firs-name"
+          class="register-form"
+        />
+        <label>Last Name</label>
+        <input
+          type="text"
+          name="Last Name"
+          id="last-name"
+          class="register-form"
+        />
+        <label>Email</label>
+        <input type="text" name="email" id="email" class="register-form" />
+        <label>Phone Number</label>
+        <input
+          type="number"
+          name="phone-number"
+          id="phone-number"
+          class="register-form"
+        />
+        <label>Address</label>
+        <input type="text" name="address" id="address" class="register-form" />
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="register-form"
+        />
+        <label>Confirm Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="register-form"
+        />
+        <input
+          type="submit"
+          name="button"
+          id="button-1"
+          value="Create Account"
+          class="register-form"
+          style="background: #00599c; color: #fff; width: 100%;"
+        />
+      </form>
+    </div>
+    <section>
+      <div class="footer">
+        <footer style="background-color: #00599c; color: #161616;">
+          <p>Copyright &COPY; 2024 By Rene Kounkou</p>
+          <a class="footer-link" href="#About us">About us</a>
+          <a class="footer-link" href="#About us">Contact us</a>
+          <a class="footer-link" href="#Privacy policy">Privacy policy</a>
+          <a class="footer-link" href="Shipping">Shipping & Delivery</a>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
