@@ -10,4 +10,6 @@ For the techical spefications;
    Home page from where you can see all the content of the website, register and sign in.
   from the home page, when you click on sign in, it takes you to the sign in page. You can go back to home page from the sign in page, you can also go to register page from sign in page
   by clicking create an account link or by clicking register link.There is also a register page when users can easily create their account. From register page, you can go back to home page.
+
+  GitHub project directory: https://github.com/kounkourene/BookstoreOnline
   
